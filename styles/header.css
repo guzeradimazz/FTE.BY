@@ -1,0 +1,97 @@
+.headerLogo {
+    background-image: url('../src/logo.webp');
+    background-size: 100%;
+    width: 350px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    height: 150px;
+    width: 100%;
+}
+.headerWrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.cityHeader span:nth-child(1) {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+}
+.cityHeader span:nth-child(2) {
+    color: #000;
+    font-size: 22px;
+    margin: 0 5px;
+}
+.arrowBlack {
+    background-image: url('../src/arrowBlack.webp');
+    background-size: 80%;
+    width: 15px;
+    height: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cityHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.callBack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.callBack button {
+    border: 1px solid #1468b3;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: #1468b3;
+    transition: 0.3s ease-in;
+}
+.callBack button:hover {
+    border: 1px solid #fff;
+    background-color: #1468b3;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+.callBack a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+}
+
+.navbar {
+    width: 100%;
+    background: linear-gradient(
+        105.91deg,
+        rgba(14, 140, 253, 0.459) -28.72%,
+        rgba(230, 35, 30, 0.72) 33.65%,
+        rgba(230, 35, 30, 0.72) 69.76%,
+        rgba(2, 115, 216, 0.459) 128.85%
+    );
+    height: 110px;
+}
+.navbarWrapper {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+.navbarWrapper a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+}

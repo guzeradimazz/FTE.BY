@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FTE.BY</title>
+        <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="stylesheet" href="./styles/main.css" />
+        <link rel="stylesheet" href="./styles/nullifyCSS.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="headerWrapper">
+                <div class="headerLogo"></div>
+                <div class="cityHeader">
+                    <span>ваш город</span>
+                    <span>Минск</span>
+                    <div class="arrowBlack"></div>
+                </div>
+                <div class="callBack">
+                    <a href="tel:+">+3 (799) 808 08 51</a>
+                    <button>Заказать звонок</button>
+                </div>
+            </div>
+        </header>
+        <section class="navbar">
+            <div class="navbarWrapper">
+                <a href="#">Тарифы</a>
+                <a href="#">Тарифы</a>
+                <a href="#">Тарифы</a>
+                <a href="#">Тарифы</a>
+                <a href="#">Тарифы</a>
+            </div>
+        </section>
+        <section class="main">
+            <div class="tab">
+                <button
+                    class="tablinks active"
+                    onclick="openCity(event, 'London')"
+                >
+                    Расчитать стоимость
+                </button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">
+                    Отследить груз
+                </button>
+            </div>
+
+            <div id="London" class="tabcontent" style="display: block">
+                <form action="">
+                    <div class="line">
+                        <input type="text" placeholder="Откуда" />
+                        <div>
+                            <img src="./src/arrowTo.png" alt="arrowTo" />
+                            <img src="./src/arrowBack.png" alt="arrowBack" />
+                        </div>
+                        <input type="text" placeholder="Куда" />
+                    </div>
+                    <div class="double-line">
+                        <div class="line">
+                            <input type="text" placeholder="Вес (кг)" />
+                        </div>
+                        <div class="line">
+                            <input type="text" placeholder="Доп. информация" />
+                        </div>
+                    </div>
+                    <div class="double-line">
+                        <div class="line">
+                            <input type="text" placeholder="Вес (кг)" />
+                        </div>
+                        <button>Узнать стоимость</button>
+                    </div>
+                </form>
+            </div>
+
+            <div id="Paris" class="tabcontent">
+                <form action="">
+                    <div class="line" style="justify-content: flex-start">
+                        <input
+                            style="margin-left: 20px; width: 100%"
+                            type="text"
+                            placeholder="Ваше имя"
+                        />
+                    </div>
+                    <div class="double-line">
+                        <div class="line" style="justify-content: flex-start">
+                            <input
+                                style="margin-left: 20px; width: 100%"
+                                type="text"
+                                placeholder="Телефон"
+                            />
+                        </div>
+                        <button>Отследить груз</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <script src="./scripts/tabs.js"></script>
+    </body>
 </html>
