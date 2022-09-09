@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    height: 216px;
+    background-color: rgba(70, 83, 108, 1);
+}
+.footerWrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+}
+.footerWrapper .headerLogo {
+    width: 290px;
+}
+.footerWrapper span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+.footerWrapper a{
+    color: #fff;
+    font-weight: bold;
+}.footerWrapper a:nth-child(2){
+    margin: 0 7px;
+}
