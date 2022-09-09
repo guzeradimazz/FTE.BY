@@ -1,0 +1,32 @@
+.partners{
+    width: 100%;
+    height: 250px;
+}
+.partnersWrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+.partner{
+    background-size: contain;
+    width: 200px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.partner1{
+    background-image: url('../src/partner1.png');
+}
+.partner2{
+    background-image: url('../src/partner2.png');
+}
+.partner3{
+    background-image: url('../src/partner3.png');
+}
+.partner4{
+    background-image: url('../src/partner4.png');
+}
