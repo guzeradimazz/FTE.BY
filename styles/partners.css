@@ -31,3 +31,13 @@
 .partner4{
     background-image: url('../src/partner4.png');
 }
+
+@media screen and (min-device-width: 2000px) and (max-device-width: 2561px){
+    .partner{
+        width: 350px;
+        height: 200px;
+    }
+    .partners{
+        margin: 100px 0;
+    }
+}

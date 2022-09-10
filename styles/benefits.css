@@ -1,30 +1,46 @@
-.benefits{
+.benefits {
     width: 100%;
     height: 200px;
     margin: 30px 0;
 }
-.benefitsWrapper{
+.benefitsWrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 80%;
     margin: 0 auto;
 }
-.benefit{
+.benefit {
     padding: 60px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.benefit h1{
+.benefit h1 {
     color: rgba(229, 98, 94, 1);
     font-weight: bold;
     font-size: 60px;
 }
-.benefit span{
+.benefit span {
     color: rgba(20, 104, 179, 0.9);
     font-weight: bold;
     font-size: 22px;
     width: 230px;
     text-align: center;
+}
+
+@media screen and (min-device-width: 2000px) and (max-device-width: 2561px) {
+    .benefits {
+        margin: 100px 0;
+        height: 450px;
+    }
+    .benefit {
+        width: 800px;
+    }
+    .benefit h1 {
+        font-size: 100px;
+    }
+    .benefit span {
+        font-size: 35px;
+    }
 }

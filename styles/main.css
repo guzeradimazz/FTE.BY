@@ -1,5 +1,5 @@
 .main {
-    background-image: url('../src/mainBack.webp');
+    background-image: url('../src/mainBack.jpg');
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -81,18 +81,18 @@
     flex-direction: column;
     justify-content: center;
 }
-.double-line{
+.double-line {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.double-line .line:nth-child(1){
+.double-line .line:nth-child(1) {
     width: 40%;
 }
-.double-line .line:nth-child(2){
+.double-line .line:nth-child(2) {
     width: 50%;
 }
-.double-line button{
+.double-line button {
     width: 50%;
     height: 40px;
     border: none;
@@ -100,4 +100,41 @@
     color: #fff;
     font-size: 18px;
     background-color: rgba(230, 35, 30, 0.9);
+}
+
+@media screen and (min-device-width: 2000px) and (max-device-width: 2561px) {
+    .main {
+        height: 1000px;
+    }
+    .tab button {
+        font-size: 35px;
+    }
+    .tab {
+        width: 800px;
+    }
+    .tab button {
+        width: 399px;
+    }
+    .tabcontent {
+        width: 800px;
+        height: 700px;
+    }
+    .line {
+        height: 70px;
+    }
+    .line img {
+        width: 20px;
+        height: 10px;
+    }
+    .double-line {
+        height: 70px;
+        margin-top: 30px;
+    }
+    .line input {
+        font-size: 22px;
+    }
+    .double-line button {
+        height: 70px;
+        font-size: 30px;
+    }
 }

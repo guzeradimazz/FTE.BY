@@ -21,9 +21,46 @@
     line-height: 27px;
     color: #fff;
 }
-.footerWrapper a{
-    color: #fff;
-    font-weight: bold;
-}.footerWrapper a:nth-child(2){
+.footerWrapper a:nth-child(2) {
     margin: 0 7px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+}
+.footerWrapper .links div {
+    width: 40px;
+    height: 40px;
+}
+.footerWrapper .links div {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footerWrapper .links div:nth-child(1) {
+    background-image: url('../src/vk.webp');
+}
+.footerWrapper .links div:nth-child(2) {
+    background-image: url('../src/inst.webp');
+}
+.footerWrapper .links div:nth-child(3) {
+    background-image: url('../src/facebook.webp');
+}
+
+@media screen and (min-device-width: 2000px) and (max-device-width: 2561px) {
+    .footerWrapper span {
+        font-size: 25px;
+    }
+    .links {
+        width: 300px;
+        justify-content: space-around;
+    }
+    .footerWrapper .links div {
+        width: 60px;
+        height: 60px;
+    }
 }

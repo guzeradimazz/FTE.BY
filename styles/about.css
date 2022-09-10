@@ -1,0 +1,42 @@
+.about {
+    width: 100%;
+    margin-top: 100px;
+    height: 100vh;
+    background-image: url('../src/aboutBack.webp');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.aboutWrapper {
+    position: absolute;
+    width: 40%;
+    left: 10%;
+    height: 100%;
+    background: rgba(229, 98, 94, 0.38);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    color: #fff;
+}
+.aboutWrapper h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.aboutWrapper span {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+@media screen and (min-device-width: 2000px) and (max-device-width: 2561px){
+    .aboutWrapper{
+        padding: 70px;
+    }
+    .aboutWrapper h1{
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    .aboutWrapper span {
+        font-size: 35px;
+    }
+}

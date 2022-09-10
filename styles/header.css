@@ -88,10 +88,39 @@ header {
     margin: 0 auto;
     align-items: center;
 }
-.navbarWrapper a{
+.navbarWrapper a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
     line-height: 30px;
+}
+@media screen and (min-device-width: 2000px) and (max-device-width: 2561px) {
+    .cityHeader span:nth-child(1) {
+        font-size: 25px;
+    }
+    .cityHeader span:nth-child(2) {
+        font-size: 35px;
+    }
+    .callBack a {
+        font-size: 25px;
+    }
+    .callBack button {
+        font-size: 35px;
+        height: 70px;
+        width: 300px;
+    }
+    .navbarWrapper a {
+        font-size: 30px;
+    }
+    .navbar {
+        height: 150px;
+    }
+    .header {
+        height: 170px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
 }
