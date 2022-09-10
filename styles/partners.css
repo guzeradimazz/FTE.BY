@@ -41,3 +41,9 @@
         margin: 100px 0;
     }
 }
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .partner{
+        width: 150px;
+        height: 100px;
+    }
+}

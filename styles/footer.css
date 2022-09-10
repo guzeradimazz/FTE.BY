@@ -64,3 +64,17 @@
         height: 60px;
     }
 }
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .footerWrapper span {
+        font-size: 18px;
+        text-align: center;
+    }
+    .footerWrapper .links div {
+        width: 35px;
+        height: 35px;
+    }
+    .footerWrapper{
+        width: 95%;
+    }
+}

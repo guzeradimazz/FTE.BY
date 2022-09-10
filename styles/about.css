@@ -1,7 +1,7 @@
 .about {
     width: 100%;
     margin-top: 100px;
-    height: 100vh;
+    height: 105vh;
     background-image: url('../src/aboutBack.webp');
     background-position: center right;
     background-repeat: no-repeat;
@@ -38,5 +38,21 @@
     }
     .aboutWrapper span {
         font-size: 35px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .aboutWrapper{
+        padding: 20px;
+    }
+    .aboutWrapper h1{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .aboutWrapper span {
+        font-size: 18px;
+    }
+    .about{
+        background-position: -841px center;
     }
 }

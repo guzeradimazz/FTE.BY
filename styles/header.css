@@ -122,5 +122,35 @@ header {
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
+    .headerWrapper{
+        width: 95%;
+        align-items: center;
+    }
+    .headerLogo{
+        width: 280px;
+        height: 120px;
+    }
+    .cityHeader span:nth-child(1) {
+        font-size: 13px;
+    }
+    .cityHeader span:nth-child(2) {
+        font-size: 16px;
+    }
+    .callBack a {
+        font-size: 13px;
+    }
+    .callBack button {
+        font-size: 16px;
+        height: 40px;
+        width: 180px;
+    }
+    .navbarWrapper a {
+        font-size: 20px;
+    }
+    .navbar {
+        height: 100px;
+    }
+    .header {
+        height: 120px;
+    }
 }
