@@ -73,7 +73,7 @@
     }
 }
 
-@media screen and (min-device-width: 321px) and (max-device-width: 375px){
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
     .aboutWrapper {
         width: 50%;
         left: 1%;
@@ -91,7 +91,7 @@
     }
 }
 
-@media screen and (min-device-width: 300px) and (max-device-width: 320px){
+@media screen and (min-device-width: 300px) and (max-device-width: 320px) {
     .aboutWrapper {
         width: 65%;
         left: 0%;

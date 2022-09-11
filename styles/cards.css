@@ -47,42 +47,42 @@
 }
 
 @media screen and (min-device-width: 2000px) and (max-device-width: 2561px) {
-    .card{
+    .card {
         height: 600px;
         margin: 100px 0;
     }
-    .card span{
+    .card span {
         font-size: 35px;
         height: 100px;
     }
 }
 
 @media screen and (min-device-width: 376px) and (max-device-width: 425px) {
-    .cardLine{
-        flex-direction: column;    
+    .cardLine {
+        flex-direction: column;
         height: 1000px;
     }
-    .card{
+    .card {
         width: 80%;
         margin: 20px auto;
     }
 }
-@media screen and (min-device-width: 321px) and (max-device-width: 375px){
-    .cardLine{
-        flex-direction: column;    
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    .cardLine {
+        flex-direction: column;
         height: 1000px;
     }
-    .card{
+    .card {
         width: 80%;
         margin: 20px auto;
     }
 }
-@media screen and (min-device-width: 300px) and (max-device-width: 320px){
-    .cardLine{
-        flex-direction: column;    
+@media screen and (min-device-width: 300px) and (max-device-width: 320px) {
+    .cardLine {
+        flex-direction: column;
         height: 1000px;
     }
-    .card{
+    .card {
         width: 80%;
         margin: 20px auto;
     }

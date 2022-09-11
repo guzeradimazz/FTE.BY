@@ -190,7 +190,7 @@ header {
     .navbarWrapper {
         flex-wrap: wrap;
     }
-    .navbar{
+    .navbar {
         height: 90px;
     }
 }
@@ -231,11 +231,11 @@ header {
     .navbarWrapper {
         flex-wrap: wrap;
     }
-    .navbar{
+    .navbar {
         height: 90px;
     }
 }
-@media screen and (min-device-width: 300px) and (max-device-width: 320px){
+@media screen and (min-device-width: 300px) and (max-device-width: 320px) {
     .headerWrapper {
         flex-direction: column;
     }
@@ -272,7 +272,7 @@ header {
         width: 90%;
         flex-wrap: wrap;
     }
-    .navbar{
+    .navbar {
         height: 90px;
     }
 }
