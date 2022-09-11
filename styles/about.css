@@ -72,3 +72,39 @@
         background-position: -1111px center;
     }
 }
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px){
+    .aboutWrapper {
+        width: 50%;
+        left: 1%;
+        padding: 20px;
+    }
+    .aboutWrapper h1 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .aboutWrapper span {
+        font-size: 11px;
+    }
+    .about {
+        background-position: -1111px center;
+    }
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 320px){
+    .aboutWrapper {
+        width: 65%;
+        left: 0%;
+        padding: 10px;
+    }
+    .aboutWrapper h1 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .aboutWrapper span {
+        font-size: 11px;
+    }
+    .about {
+        background-position: -1111px center;
+    }
+}

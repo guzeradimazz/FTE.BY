@@ -75,3 +75,39 @@
         width: 80%;
     }
 }
+@media screen and (min-device-width: 321px) and (max-device-width: 375px){
+    .benefitsWrapper{
+        flex-direction: column;
+    }
+    .benefits{
+        height: 500px;
+    }
+    .benefit h1 {
+        font-size: 35px;
+    }
+    .benefit{
+        padding: 30px 0;
+        width: 100%;
+    }
+    .benefit span{
+        width: 80%;
+    }
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 320px){
+    .benefitsWrapper{
+        flex-direction: column;
+    }
+    .benefits{
+        height: 500px;
+    }
+    .benefit h1 {
+        font-size: 35px;
+    }
+    .benefit{
+        padding: 30px 0;
+        width: 100%;
+    }
+    .benefit span{
+        width: 95%;
+    }
+}

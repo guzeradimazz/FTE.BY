@@ -89,3 +89,25 @@
         margin-bottom: 10px;
     }
 }
+@media screen and (min-device-width: 321px) and (max-device-width: 375px){
+    .footerWrapper{
+        flex-direction: column;
+    }
+    .footerWrapper span {
+        font-size: 14px;
+    }
+    .links{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 320px){
+    .footerWrapper{
+        flex-direction: column;
+    }
+    .footerWrapper span {
+        font-size: 14px;
+    }
+    .links{
+        margin-bottom: 10px;
+    }
+}

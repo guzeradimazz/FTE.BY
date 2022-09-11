@@ -65,3 +65,25 @@
         height: 400px;
     }
 }
+@media screen and (min-device-width: 321px) and (max-device-width: 375px){
+    .mapInfo{
+        position: relative;
+        width: 100%;
+        height: 70%;
+        align-items: end;
+    }
+    iframe{
+        height: 400px;
+    }
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 320px){
+    .mapInfo{
+        position: relative;
+        width: 100%;
+        height: 70%;
+        align-items: end;
+    }
+    iframe{
+        height: 400px;
+    }
+}

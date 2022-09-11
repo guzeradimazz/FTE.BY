@@ -194,3 +194,85 @@ header {
         height: 90px;
     }
 }
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    .headerWrapper {
+        flex-direction: column;
+    }
+    .headerLogo {
+        width: 200px;
+        height: 90px;
+    }
+    .cityHeader span:nth-child(1) {
+        font-size: 11px;
+    }
+    .cityHeader span:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .callBack a {
+        font-size: 11px;
+    }
+    .callBack button {
+        font-size: 14px;
+        height: 30px;
+        width: 140px;
+    }
+    .header {
+        height: 160px;
+    }
+    .callBack {
+        margin-top: 5px;
+    }
+    .navbarWrapper a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .navbarWrapper {
+        flex-wrap: wrap;
+    }
+    .navbar{
+        height: 90px;
+    }
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 320px){
+    .headerWrapper {
+        flex-direction: column;
+    }
+    .headerLogo {
+        width: 200px;
+        height: 90px;
+    }
+    .cityHeader span:nth-child(1) {
+        font-size: 11px;
+    }
+    .cityHeader span:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .callBack a {
+        font-size: 11px;
+    }
+    .callBack button {
+        font-size: 14px;
+        height: 30px;
+        width: 140px;
+    }
+    .header {
+        height: 160px;
+    }
+    .callBack {
+        margin-top: 5px;
+    }
+    .navbarWrapper a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .navbarWrapper {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .navbar{
+        height: 90px;
+    }
+}

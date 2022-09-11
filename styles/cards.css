@@ -67,3 +67,23 @@
         margin: 20px auto;
     }
 }
+@media screen and (min-device-width: 321px) and (max-device-width: 375px){
+    .cardLine{
+        flex-direction: column;    
+        height: 1000px;
+    }
+    .card{
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 320px){
+    .cardLine{
+        flex-direction: column;    
+        height: 1000px;
+    }
+    .card{
+        width: 80%;
+        margin: 20px auto;
+    }
+}

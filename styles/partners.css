@@ -58,3 +58,25 @@
         width: 157px;
     }
 }
+@media screen and (min-device-width: 321px) and (max-device-width: 375px){
+    .partners{
+        margin-top: 300px;
+    }
+    .partnersWrapper{
+        flex-wrap: wrap;
+    }
+    .partner{
+        width: 150px;
+    }
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 320px){
+    .partners{
+        margin-top: 300px;
+    }
+    .partnersWrapper{
+        flex-wrap: wrap;
+    }
+    .partner{
+        width: 120px;
+    }
+}
