@@ -122,11 +122,11 @@ header {
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .headerWrapper{
+    .headerWrapper {
         width: 95%;
         align-items: center;
     }
-    .headerLogo{
+    .headerLogo {
         width: 280px;
         height: 120px;
     }
@@ -152,5 +152,45 @@ header {
     }
     .header {
         height: 120px;
+    }
+}
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+    .headerWrapper {
+        flex-direction: column;
+    }
+    .headerLogo {
+        width: 200px;
+        height: 90px;
+    }
+    .cityHeader span:nth-child(1) {
+        font-size: 11px;
+    }
+    .cityHeader span:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .callBack a {
+        font-size: 11px;
+    }
+    .callBack button {
+        font-size: 14px;
+        height: 30px;
+        width: 140px;
+    }
+    .header {
+        height: 160px;
+    }
+    .callBack {
+        margin-top: 5px;
+    }
+    .navbarWrapper a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .navbarWrapper {
+        flex-wrap: wrap;
+    }
+    .navbar{
+        height: 90px;
     }
 }
