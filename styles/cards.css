@@ -56,3 +56,14 @@
         height: 100px;
     }
 }
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+    .cardLine{
+        flex-direction: column;    
+        height: 1000px;
+    }
+    .card{
+        width: 80%;
+        margin: 20px auto;
+    }
+}

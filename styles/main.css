@@ -156,4 +156,13 @@
     .double-line .line:nth-child(1) {
         width: 46%;
     }
+    .line{
+        height: 50px;
+    }
+    .line input{
+        width: 150px;
+    }
+    .double-line button{
+        height: 50px;
+    }
 }

@@ -28,11 +28,11 @@
     font-size: 20px;
 }
 
-@media screen and (min-device-width: 2000px) and (max-device-width: 2561px){
-    .aboutWrapper{
+@media screen and (min-device-width: 2000px) and (max-device-width: 2561px) {
+    .aboutWrapper {
         padding: 70px;
     }
-    .aboutWrapper h1{
+    .aboutWrapper h1 {
         font-size: 50px;
         margin-bottom: 50px;
     }
@@ -41,18 +41,34 @@
     }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
-    .aboutWrapper{
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .aboutWrapper {
         padding: 20px;
     }
-    .aboutWrapper h1{
+    .aboutWrapper h1 {
         font-size: 35px;
         margin-bottom: 30px;
     }
     .aboutWrapper span {
         font-size: 18px;
     }
-    .about{
+    .about {
         background-position: -841px center;
+    }
+}
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+    .aboutWrapper {
+        width: 60%;
+        left: 1%;
+    }
+    .aboutWrapper h1 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .aboutWrapper span {
+        font-size: 11px;
+    }
+    .about {
+        background-position: -1111px center;
     }
 }

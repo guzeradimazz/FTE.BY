@@ -78,3 +78,14 @@
         width: 95%;
     }
 }
+@media screen and (min-device-width: 376px) and (max-device-width: 425px){
+    .footerWrapper{
+        flex-direction: column;
+    }
+    .footerWrapper span {
+        font-size: 14px;
+    }
+    .links{
+        margin-bottom: 10px;
+    }
+}
