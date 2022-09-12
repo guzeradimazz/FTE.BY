@@ -12,11 +12,15 @@
 }
 
 .modal-content {
+    transition: all .3s ease;
     background-color: #fefefe;
     margin: 15% auto; 
     padding: 40px;
     border-radius: 5px;
     width: 70%;
+    opacity: 1;
+    transform: translateY(0%);
+    animation: animateModal .5s ease-in-out;
 }
 .close {
     color: #aaa;
@@ -38,4 +42,14 @@
 }
 #myModal label{
     color: #000;
+}
+@keyframes animateModal {
+    from{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }

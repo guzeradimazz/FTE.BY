@@ -30,24 +30,24 @@
     width: 200px;
     height: 50px;
 }
-.footerWrapper .links div {
+.footerWrapper .links a {
     width: 40px;
     height: 40px;
 }
-.footerWrapper .links div {
+.footerWrapper .links a {
     width: 100%;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
-.footerWrapper .links div:nth-child(1) {
+.footerWrapper .links a:nth-child(1) {
     background-image: url('../src/vk.webp');
 }
-.footerWrapper .links div:nth-child(2) {
+.footerWrapper .links a:nth-child(2) {
     background-image: url('../src/inst.webp');
 }
-.footerWrapper .links div:nth-child(3) {
+.footerWrapper .links a:nth-child(3) {
     background-image: url('../src/facebook.webp');
 }
 
@@ -59,7 +59,7 @@
         width: 300px;
         justify-content: space-around;
     }
-    .footerWrapper .links div {
+    .footerWrapper .links a {
         width: 60px;
         height: 60px;
     }
@@ -70,7 +70,7 @@
         font-size: 18px;
         text-align: center;
     }
-    .footerWrapper .links div {
+    .footerWrapper .links a {
         width: 35px;
         height: 35px;
     }
