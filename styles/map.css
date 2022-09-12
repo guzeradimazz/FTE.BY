@@ -1,6 +1,8 @@
 .map {
     width: 100%;
     height: 600px;
+    scroll-behavior: smooth;
+    transition: all .5s ease;
 }
 .mapWrapper {
     width: 100%;

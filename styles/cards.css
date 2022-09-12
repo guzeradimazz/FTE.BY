@@ -43,7 +43,19 @@
     text-align: center;
 }
 .card1 {
-    background-image: url('../src/card.png');
+    background-image: url('../src/card1.png');
+}
+
+.card2 {
+    background-image: url('../src/card2.webp');
+}
+
+.card3 {
+    background-image: url('../src/card3.webp');
+}
+
+.card4 {
+    background-image: url('../src/card4.webp');
 }
 
 @media screen and (min-device-width: 2000px) and (max-device-width: 2561px) {

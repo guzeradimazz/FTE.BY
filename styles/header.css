@@ -55,6 +55,12 @@ header {
     background-color: transparent;
     color: #1468b3;
     transition: 0.3s ease-in;
+} 
+.callBack button a{
+    color: #1468b3;
+}
+.callBack button a:hover{
+    color: #fff;
 }
 .callBack button:hover {
     border: 1px solid #fff;
@@ -275,4 +281,7 @@ header {
     .navbar {
         height: 90px;
     }
+}
+.navbarHref{
+    text-transform: uppercase;
 }
