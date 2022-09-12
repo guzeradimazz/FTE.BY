@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="./styles/about.css" />
         <link rel="stylesheet" href="./styles/partners.css" />
         <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="stylesheet" href="./styles/modal.css" />
         <link rel="stylesheet" href="./styles/nullifyCSS.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,9 +33,51 @@
                 </div>
                 <div class="callBack">
                     <a href="tel:+">+3 (799) 808 08 51</a>
-                    <a href="https://fte.ru/oformite-zayavku-onlayn/">
-                        <button>Заказать звонок</button>
-                    </a>
+                    <button id="myBtn">Заказать звонок</button>
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <form action="mail2.php" method="POST">
+                        <div class="line" style="justify-content: flex-start">
+                            <input
+                                name="backName"
+                                style="margin-left: 20px; width: 100%"
+                                type="text"
+                                placeholder="Ваше имя"
+                            />
+                        </div>
+                        <div class="double-line">
+                            <div
+                                class="line"
+                                style="justify-content: flex-start"
+                            >
+                                <input
+                                    name="backPhone"
+                                    style="margin-left: 20px; width: 100%"
+                                    type="text"
+                                    placeholder="Телефон"
+                                />
+                            </div>
+                            <button type="submit">Отправить заявку</button>
+                        </div>
+                        <div>
+                            <input
+                                style="cursor: pointer; margin-left:20px;border:1px solid #000; margin-top:10px"
+                                id="valudatePersonality"
+                                class="_req"
+                                type="checkbox"
+                            />
+                            <label
+                                for="valudatePersonality"
+                                style="cursor: pointer"
+                                >Я даю свое согласие на обработку и
+                                использование моих персональных данных</label
+                            >
+                        </div>
+                    </form>
                 </div>
             </div>
         </header>
