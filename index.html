@@ -64,36 +64,81 @@
             </div>
 
             <div id="London" class="tabcontent" style="display: block">
-                <form action="">
+                <form action="mail.php" method="POST" id="calcForm">
                     <div class="line">
-                        <input type="text" placeholder="Откуда" />
+                        <input
+                            class="_req"
+                            name="calcForm"
+                            id="calcFrom"
+                            type="text"
+                            placeholder="Откуда"
+                        />
                         <div>
                             <img src="./src/arrowTo.png" alt="arrowTo" />
                             <img src="./src/arrowBack.png" alt="arrowBack" />
                         </div>
-                        <input type="text" placeholder="Куда" />
+                        <input
+                            class="_req"
+                            id="calcTo"
+                            name="calcTo"
+                            type="text"
+                            placeholder="Куда"
+                        />
                     </div>
                     <div class="double-line">
                         <div class="line">
-                            <input type="text" placeholder="Вес (кг)" />
+                            <input
+                                class="_req"
+                                name="calcWeight"
+                                id="calcWeight"
+                                type="text"
+                                placeholder="Вес (кг)"
+                            />
                         </div>
                         <div class="line">
-                            <input type="text" placeholder="Доп. информация" />
+                            <input
+                                class="_req"
+                                name="calcPhone"
+                                id="calcPhone"
+                                type="text"
+                                placeholder="Ваш телефон"
+                            />
                         </div>
                     </div>
                     <div class="double-line">
                         <div class="line">
-                            <input type="text" placeholder="Объем (м3)" />
+                            <input
+                                class="_req"
+                                name="calcVolume"
+                                id="calcVolume"
+                                type="text"
+                                placeholder="Объем (м3)"
+                            />
                         </div>
-                        <button>Узнать стоимость</button>
+                        <button type="submit">Узнать стоимость</button>
+                    </div>
+                    <div>
+                        <input
+                            style="cursor: pointer"
+                            id="valudatePersonality"
+                            class="_req"
+                            type="checkbox"
+                        />
+                        <label
+                            for="valudatePersonality"
+                            style="color: #fff; cursor: pointer"
+                            >Я даю свое согласие на обработку и использование
+                            моих персональных данных</label
+                        >
                     </div>
                 </form>
             </div>
 
             <div id="Paris" class="tabcontent">
-                <form action="">
+                <form action="mail2.php" method="POST">
                     <div class="line" style="justify-content: flex-start">
                         <input
+                            name="backName"
                             style="margin-left: 20px; width: 100%"
                             type="text"
                             placeholder="Ваше имя"
@@ -102,12 +147,27 @@
                     <div class="double-line">
                         <div class="line" style="justify-content: flex-start">
                             <input
+                                name="backPhone"
                                 style="margin-left: 20px; width: 100%"
                                 type="text"
                                 placeholder="Телефон"
                             />
                         </div>
-                        <button>Отследить груз</button>
+                        <button type="submit">Отправить заявку</button>
+                    </div>
+                    <div>
+                        <input
+                            style="cursor: pointer"
+                            id="valudatePersonality"
+                            class="_req"
+                            type="checkbox"
+                        />
+                        <label
+                            for="valudatePersonality"
+                            style="color: #fff; cursor: pointer"
+                            >Я даю свое согласие на обработку и использование
+                            моих персональных данных</label
+                        >
                     </div>
                 </form>
             </div>
@@ -222,6 +282,7 @@
                 </div>
             </div>
         </footer>
+        <!-- <script src="./scripts/calcForm.js"></script> -->
         <script src="./scripts/anchor.js"></script>
         <script src="./scripts/tabs.js"></script>
     </body>
