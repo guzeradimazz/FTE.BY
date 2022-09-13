@@ -129,7 +129,7 @@ header {
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .headerWrapper {
-        width: 95%;
+        width: 99%;
         align-items: center;
     }
     .headerLogo {
@@ -149,6 +149,12 @@ header {
         font-size: 16px;
         height: 40px;
         width: 180px;
+    }
+    .navbarWrapper{
+        width: 80%;
+    }
+    label{
+        font-size: 15px;
     }
     .navbarWrapper a {
         font-size: 20px;

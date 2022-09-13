@@ -35,10 +35,13 @@
 }
 .card span {
     margin-top: 20%;
-    width: 100%;
+    width: 100%;display: flex;
+    justify-content: center;
     height: 50px;
     color: #fff;
-    font-weight: normal;
+    font-weight: bold;
+    align-items: center;
+    letter-spacing: 1px;
     background-color: rgba(20, 104, 179, 0.4);
     text-align: center;
 }
@@ -47,15 +50,15 @@
 }
 
 .card2 {
-    background-image: url('../src/card2.webp');
+    background-image: url('../src/card2.png');
 }
 
 .card3 {
-    background-image: url('../src/card3.webp');
+    background-image: url('../src/card3.png');
 }
 
 .card4 {
-    background-image: url('../src/card4.webp');
+    background-image: url('../src/card4.png');
 }
 
 @media screen and (min-device-width: 2000px) and (max-device-width: 2561px) {

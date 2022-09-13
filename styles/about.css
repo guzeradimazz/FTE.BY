@@ -10,8 +10,8 @@
 }
 .aboutWrapper {
     position: absolute;
-    width: 40%;
-    left: 10%;
+    width: 50%;
+    left: 8%;
     height: 100%;
     background: rgba(229, 98, 94, 0.38);
     backdrop-filter: blur(10px);
@@ -30,7 +30,9 @@
 
 @media screen and (min-device-width: 2000px) and (max-device-width: 2561px) {
     .aboutWrapper {
-        padding: 70px;
+        width: 55%;
+        left: 6%;
+        padding: 50px;
     }
     .aboutWrapper h1 {
         font-size: 50px;
@@ -44,6 +46,8 @@
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .aboutWrapper {
         padding: 20px;
+        width: 64%;
+        left: 3%;
     }
     .aboutWrapper h1 {
         font-size: 35px;
@@ -53,47 +57,48 @@
         font-size: 18px;
     }
     .about {
-        background-position: -841px center;
+        background-position: -1137px center;
     }
 }
 @media screen and (min-device-width: 376px) and (max-device-width: 425px) {
     .aboutWrapper {
-        width: 60%;
-        left: 1%;
+        width: 64%;
+        left: 0%;
+        padding: 15px;
     }
     .aboutWrapper h1 {
         font-size: 14px;
         margin-bottom: 20px;
     }
     .aboutWrapper span {
-        font-size: 11px;
+        font-size: 12px;
     }
     .about {
-        background-position: -1111px center;
+        background-position: -1311px center;
     }
 }
 
 @media screen and (min-device-width: 321px) and (max-device-width: 375px) {
     .aboutWrapper {
-        width: 50%;
-        left: 1%;
-        padding: 20px;
+        width: 74%;
+        left: 0%;
+        padding: 15px;
     }
     .aboutWrapper h1 {
         font-size: 14px;
         margin-bottom: 20px;
     }
     .aboutWrapper span {
-        font-size: 11px;
+        font-size: 12px;
     }
     .about {
-        background-position: -1111px center;
+        background-position: -1411px center;
     }
 }
 
 @media screen and (min-device-width: 300px) and (max-device-width: 320px) {
     .aboutWrapper {
-        width: 65%;
+        width: 76%;
         left: 0%;
         padding: 10px;
     }
@@ -105,6 +110,6 @@
         font-size: 11px;
     }
     .about {
-        background-position: -1111px center;
+        background-position: -1451px center;
     }
 }

@@ -40,9 +40,10 @@
             <div id="myModal" class="modal">
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <form action="mail2.php" method="POST">
+                    <form action="mail2.php" method="POST" id="callForm">
                         <div class="line" style="justify-content: flex-start">
                             <input
+                                class="_req2"
                                 name="backName"
                                 style="margin-left: 20px; width: 100%"
                                 type="text"
@@ -55,6 +56,7 @@
                                 style="justify-content: flex-start"
                             >
                                 <input
+                                    class="_req2"
                                     name="backPhone"
                                     style="margin-left: 20px; width: 100%"
                                     type="text"
@@ -72,7 +74,7 @@
                                     margin-top: 10px;
                                 "
                                 id="valudatePersonality"
-                                class="_req"
+                                class="_req2"
                                 type="checkbox"
                             />
                             <label
@@ -92,7 +94,7 @@
                     >компания</a
                 >
                 <a class="navbarHref" href="https://fte.ru/services/">услуги</a>
-                <a class="navbarHref" href="#mapAnchor">адреса</a>
+                <a class="navbarHref" href="https://fte.ru/contacts/">адреса</a>
                 <a class="navbarHref" href="https://fte.ru/info/documents/"
                     >документы</a
                 >
@@ -183,9 +185,10 @@
             </div>
 
             <div id="Paris" class="tabcontent">
-                <form action="mail2.php" method="POST">
+                <form action="mail2.php" method="POST" id="callForm2">
                     <div class="line" style="justify-content: flex-start">
                         <input
+                            class="_req3"
                             name="backName"
                             style="margin-left: 20px; width: 100%"
                             type="text"
@@ -195,6 +198,7 @@
                     <div class="double-line">
                         <div class="line" style="justify-content: flex-start">
                             <input
+                                class="_req3"
                                 name="backPhone"
                                 style="margin-left: 20px; width: 100%"
                                 type="text"
@@ -207,7 +211,7 @@
                         <input
                             style="cursor: pointer"
                             id="valudatePersonality"
-                            class="_req"
+                            class="_req3"
                             type="checkbox"
                         />
                         <label
@@ -221,6 +225,7 @@
             </div>
         </section>
         <section class="benefits">
+            <h1 class="benefitsH1">Перевозки из/в России и Беларуси</h1>
             <div class="benefitsWrapper">
                 <div class="benefit">
                     <h1>20</h1>
@@ -229,30 +234,42 @@
 
                 <div class="benefit">
                     <h1>> 798 000</h1>
-                    <span>Наших довольных клиентов</span>
+                    <span>Довольных клиентов</span>
                 </div>
 
                 <div class="benefit">
                     <h1>67</h1>
-                    <span>Пункта выдачи по РФ и др. странам</span>
+                    <span>Пунктов выдачи</span>
                 </div>
             </div>
         </section>
         <section class="cards">
             <div class="cardsWrapper">
                 <div class="cardLine">
-                    <div class="card card1">
+                    <a
+                        href="https://fte.ru/services/konteynernye-perevozki-gruzov/"
+                        class="card card1"
+                    >
                         <span>Сборные автоперевозки</span>
-                    </div>
-                    <div class="card card2">
+                    </a>
+                    <a
+                        href="https://fte.ru/services/skladskie-uslugi/"
+                        class="card card2"
+                    >
                         <span>Складские услуги</span>
-                    </div>
-                    <div class="card card3">
+                    </a>
+                    <a
+                        href=" https://fte.ru/services/mezhdunarodnye-perevozki/"
+                        class="card card3"
+                    >
                         <span>Международные перевозки</span>
-                    </div>
-                    <div class="card card4">
-                        <span>Негабаритные , с температурным режимом</span>
-                    </div>
+                    </a>
+                    <a
+                        href="https://fte.ru/services/perevozka-negabaritnykh-gruzov/"
+                        class="card card4"
+                    >
+                        <span>Негабаритные перевозки</span>
+                    </a>
                 </div>
             </div>
         </section>
@@ -260,20 +277,32 @@
             <div class="aboutWrapper">
                 <h1>О компании</h1>
                 <span
-                    >Транспортная компания FORTUNA EXPRESS осуществляет
-                    грузоперевозки с использованием разных видов транспорта:
-                    Автомобильного. <br />Доставка осуществляется современными
-                    грузовиками, тягачами, прицепами, рефрижераторами,
-                    цистернами, контейнерами, тралами, а также с применением
-                    различной спецтехники. Мы обеспечим качественную
-                    транспортировку грузов любого типа и вида, тщательно
-                    проработав маршрут и соблюдая условия хранения. <br />Нам вы
-                    сможете доверить нестандартные и габаритные грузы, а также
-                    скоропортящиеся товары и продукты, требующие особого
-                    хранения; Железнодорожного.<br />
-                    Если перед вами стоит задача дешево доставить большую партию
-                    товаров (одинаковых или разнородных), то мы всегда готовы ее
-                    решить.
+                    >Транспортная компания FORTUNA EXPRESS на рынке
+                    грузоперевозок с 2002 года. Вот уже более 20 лет мы успешно
+                    работаем на российском рынке, осуществляем доставку грузов в
+                    страны СНГ и постепенно расширяем свое присутствие в странах
+                    ближнего и дальнего зарубежья. Наша транспортная компания
+                    представлена в Москве, Санкт-Петербурге, Тюмени,
+                    Екатеринбурге, Сургуте, Нижневаторске, Новом Уренгое,
+                    Челябинске, Перми и многих других городах, что делает наши
+                    услуги максимально доступными для жителей и компаний всей
+                    России. <br />С сентября 2022 года мы вышли на рынок
+                    Республики Беларусь. В Беларуси компания
+                    называется «<b>Ф-Экспресс</b>», в которой собрана сильная
+                    команда экспертов, которые окажут качественный сервис и
+                    предоставят нашим Клиентам качественную услугу. <br /><b
+                        >Доставка сборных грузов является одним из  приоритетных
+                        направлений FORTUNA EXPRESS.</b
+                    ><br />
+                    Из услуг, которые мы оказываем в России – это доставка
+                    грузов с температурным режимом, услуги складского хранения в
+                    филиальной сети складов, ж/д перевозки, доставка
+                    крупногабаритных грузов, набирает обороты такой вид услуг,
+                    как контейнерные перевозки из Китая.<br />Несмотря на то,
+                    что мир сегодня переживает тяжелую трансформацию, жизнь не
+                    стоит на месте: экономика продолжает развиваться, а бизнесы
+                    – открываться. С изменением логистических цепочек, мы
+                    открыли свои представительства в Турции, Китае.
                 </span>
             </div>
         </section>
@@ -282,7 +311,7 @@
                 <div class="mapInfo">
                     <div class="mapInfoLine">
                         <span>Режим работы:</span>
-                        <span>С 8:00 до 18:00</span>
+                        <span>понедельник - пятница <br />с 8.30 до 17.00</span>
                     </div>
 
                     <div class="mapInfoLine">
@@ -297,7 +326,7 @@
 
                     <div class="mapInfoLine">
                         <span>mail:</span>
-                        <span>FortunaExpress@mail.ru</span>
+                        <span>info@fte.by</span>
                     </div>
                 </div>
                 <iframe
@@ -336,7 +365,9 @@
                 </div>
             </div>
         </footer>
-        <!-- <script src="./scripts/calcForm.js"></script> -->
+        <script src="./scripts/callForm.js"></script>
+        <script src="./scripts/callForm2.js"></script>
+        <script src="./scripts/calcForm.js"></script>
         <script src="./scripts/anchor.js"></script>
         <script src="./scripts/tabs.js"></script>
     </body>

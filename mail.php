@@ -25,7 +25,7 @@ $mail->addAddress('reg4ik@mail.ru');     // Кому будет уходить �
 $mail->isHTML(true);
 
 $mail->Subject = 'Заявка с сайта';
-$mail->Body    = 'Откуда:' .$calcFrom . 'Куда: ' .$calcTo. 'Вес:' .$calcWeight 'Объем:' .$calcVolume 'Телефон:' .$calcPhone ;
+$mail->Body    = 'Откуда:' .$calcFrom . 'Куда: ' .$calcTo . 'Вес:' .$calcWeight . 'Объем:' .$calcVolume . 'Телефон:' .$calcPhone;
 $mail->AltBody = '';
 
 if(!$mail->send()) {

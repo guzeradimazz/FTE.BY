@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById('calcForm')
-    form.addEventListener('submit', formSend)
+    const form2 = document.getElementById('callForm')
+    form2.addEventListener('submit', formSend2)
 
-    async function formSend(e) {
+    async function formSend2(e) {
         e.preventDefault()
-        let error = formValidate(form)
+        let error = formValidate(form2)
 
         if (error) {
             alert('Заполните все поля!')
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function formValidate(form) {
         let error = 0
-        let formReq = document.querySelectorAll('._req')
+        let formReq = document.querySelectorAll('._req2')
 
         for (let i = 0; i < formReq.length; i++) {
             const input = formReq[i]
