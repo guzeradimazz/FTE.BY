@@ -10,8 +10,8 @@
 }
 .aboutWrapper {
     position: absolute;
-    width: 50%;
-    left: 8%;
+    width: 70%;
+    left: 5%;
     height: 100%;
     background: rgba(229, 98, 94, 0.38);
     backdrop-filter: blur(10px);
@@ -30,7 +30,7 @@
 
 @media screen and (min-device-width: 2000px) and (max-device-width: 2561px) {
     .aboutWrapper {
-        width: 55%;
+        width: 70%;
         left: 6%;
         padding: 50px;
     }
@@ -46,7 +46,7 @@
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .aboutWrapper {
         padding: 20px;
-        width: 64%;
+        width: 70%;
         left: 3%;
     }
     .aboutWrapper h1 {
@@ -62,7 +62,7 @@
 }
 @media screen and (min-device-width: 376px) and (max-device-width: 425px) {
     .aboutWrapper {
-        width: 64%;
+        width: 72%;
         left: 0%;
         padding: 15px;
     }
