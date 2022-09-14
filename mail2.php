@@ -18,7 +18,7 @@ $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, 
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('fortunaonline7@mail.ru'); // от кого будет уходить письмо?
-$mail->addAddress('reg4ik@mail.ru');     // Кому будет уходить письмо
+$mail->addAddress('info@fte.by');     // Кому будет уходить письмо
 $mail->isHTML(true);
 
 $mail->Subject = 'Заявка с сайта(Обратный звонок)';

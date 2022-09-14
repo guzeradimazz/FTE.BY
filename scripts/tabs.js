@@ -1,5 +1,3 @@
-
-
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks
 
@@ -17,20 +15,19 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += ' active'
 }
 
+const modal = document.getElementById('myModal')
 
-const modal = document.getElementById("myModal");
+const btn = document.getElementById('myBtn')
+const span = document.getElementsByClassName('close')[0]
 
-const btn = document.getElementById("myBtn");
-const span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function() {
-  modal.style.display = "block";
+btn.onclick = function () {
+    modal.style.display = 'block'
 }
-span.onclick = function() {
-  modal.style.display = "none";
+span.onclick = function () {
+    modal.style.display = 'none'
 }
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = 'none'
+    }
 }
